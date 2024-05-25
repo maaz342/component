@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import Input from './Components/Input';
-import Logo from './Components/Logo';
-import Data from './Components/data';
+import Input from './component/Input';
+import Logo from './component/Logo';
+import Tables from './component/table';
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <Logo></Logo>
 
       <Input  onclickhandler={onclickhandler} ></Input>
-      <Data  data={currentinterval}></Data>
+      <Tables  data={currentinterval}></Tables>
       </div>
     </div>
   );
